@@ -11,7 +11,7 @@
 # Generated files
 bin/
 gen/
-.settting
+.settings
 
 # Gradle files
 .gradle/
