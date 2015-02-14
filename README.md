@@ -3,7 +3,7 @@
 最近写一直在用Google的Volley做网络请求部分，但是Volley源码只有简单的通信，如果需要上传文件、图片时就需要时就稍微复杂了，于是自己就对Volley进入了简单的封装。
 
 ## 结构如下：
-![结构](https://github.com/iQuick/VolleyManager/art/1.jgp)
+![结构](https://github.com/iQuick/VolleyManager/tree/master/art/1.jpg)
 
 ## 使用
 
