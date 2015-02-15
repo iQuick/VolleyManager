@@ -3,11 +3,11 @@
 最近写一直在用Google的Volley做网络请求部分，但是Volley源码只有简单的通信，如果需要上传文件、图片时就需要时就稍微复杂了，于是自己就对Volley进入了简单的封装。
 
 ## 结构如下：
-![结构](https://github.com/iQuick/VolleyManager/art/1.jpg)
+![结构](https://github.com/iQuick/VolleyManager/blob/master/art/1.jpg)
 
 ## 使用
 
-### 请求
+### 网络请求
 
 	private void request() {
 		RequestParams params = new RequestParams();
@@ -29,7 +29,7 @@
 		};
 	}
 
-## 图片
+### 图片加载
 	
 	ImageCacheManager.loadImage(URL_IMAGE, ImageCacheManager.getImageListener(mImageView, null, null));
 
